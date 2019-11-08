@@ -15,6 +15,7 @@
 		6E9F58572374E2C900F1D21B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9F58562374E2C900F1D21B /* main.m */; };
 		6E9F58642374F8FA00F1D21B /* MBPeopleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9F58632374F8FA00F1D21B /* MBPeopleTableViewController.m */; };
 		6E9F58672374F91100F1D21B /* MBPersonDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9F58662374F91100F1D21B /* MBPersonDetailViewController.m */; };
+		6E9F586A2374FADD00F1D21B /* MBPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9F58692374FADD00F1D21B /* MBPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		6E9F58632374F8FA00F1D21B /* MBPeopleTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBPeopleTableViewController.m; sourceTree = "<group>"; };
 		6E9F58652374F91000F1D21B /* MBPersonDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBPersonDetailViewController.h; sourceTree = "<group>"; };
 		6E9F58662374F91100F1D21B /* MBPersonDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBPersonDetailViewController.m; sourceTree = "<group>"; };
+		6E9F58682374FADD00F1D21B /* MBPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBPerson.h; sourceTree = "<group>"; };
+		6E9F58692374FADD00F1D21B /* MBPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBPerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 		6E9F58612374E31C00F1D21B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				6E9F58682374FADD00F1D21B /* MBPerson.h */,
+				6E9F58692374FADD00F1D21B /* MBPerson.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -192,6 +197,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E9F58462374E2C700F1D21B /* AppDelegate.m in Sources */,
+				6E9F586A2374FADD00F1D21B /* MBPerson.m in Sources */,
 				6E9F58572374E2C900F1D21B /* main.m in Sources */,
 				6E9F58492374E2C700F1D21B /* SceneDelegate.m in Sources */,
 				6E9F58642374F8FA00F1D21B /* MBPeopleTableViewController.m in Sources */,

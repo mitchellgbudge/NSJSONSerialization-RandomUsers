@@ -10,11 +10,16 @@
 
 @interface MBPerson : NSObject
 
+@property NSString *name;
+@property NSString *phone;
 @property NSString *email;
+@property NSString *thumbnail;
+@property NSString *profile;
 
-- (instancetype) initWithEmail:(NSString *)email;
+- (instancetype) initWithName:(NSString *)name phone:(NSString *)phone email:(NSString *)email thumbnail:(NSString *)thumbnail profile:(NSString *)profile;
 
 - (instancetype) initWithDictionary:(NSDictionary *)dictionary;
+
 
 @end
 

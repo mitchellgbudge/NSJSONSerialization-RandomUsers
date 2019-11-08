@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MBPerson.h"
 
 @interface MBPersonDetailViewController : UIViewController
+
+@property (nonatomic) MBPerson *person;
 
 @end
 
